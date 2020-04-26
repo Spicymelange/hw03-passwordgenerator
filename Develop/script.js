@@ -6,7 +6,7 @@ var divEl = document.querySelector(".card-body")
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", function(event){
-  if(event.target.matches("button")){
+  if(event.target.matches("button")){//main program runs here
     typePrompt();
     lengthPrompt();
     createArrayOfGens();
